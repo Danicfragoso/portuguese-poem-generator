@@ -1,0 +1,17 @@
+footer {
+    color: gray;
+    text-align: center;
+    font-size: 12px;
+}
+.footer-link {
+    color: darkred;
+    text-decoration: none;
+}
+.name-link {
+    color: darkred;
+    text-decoration: none;
+}
+.hosted {
+    color: darkred;
+    text-decoration: none;
+}
