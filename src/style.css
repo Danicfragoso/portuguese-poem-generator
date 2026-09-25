@@ -53,10 +53,12 @@ footer {
     margin: 50px auto;
     max-width: 700px;
     border-radius: 15px;
+    display: none;
 }
 .poem-title {
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: bold;
     margin-top: 0;
     margin-bottom: 20px;
     font-family: "Cormorant", serif;
@@ -65,11 +67,12 @@ footer {
 }
 .poem-here {
     text-align: center;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 400;
     margin-top: 0;
     font-family: "Cormorant", serif;
     font-optical-sizing: auto;
+    white-space: pre-line;
 }
 .footer-link {
     color: darkred;
