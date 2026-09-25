@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portuguese Poem generator</title>
     <link rel="stylesheet" href="src/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap"
+        rel="stylesheet">
+
 </head>
 <body>
     <header>
@@ -12,13 +18,14 @@
     </header>
     <main>
         <form id="form-poem" class="form-poem">
-            <input type="text" placeholder="Theme of the poem" autofocus required/>
-            <input type="submit" />
+            <input type="text" placeholder="Theme of the poem" autofocus required autocomplete="off" class="text-form"/>
+            <input type="submit" class="submit-form"/>
         </form>
+        <div class="result"> 
         <div id="poem-title" class="poem-title"> Title here</div>
-        <div id="poem-here" class="poem-here"> Poem here</div>
+        <div id="poem-here" class="poem-here"> Poem here</div> </div>
     </main>
     <footer> Coded by <a href="https://github.com/Danicfragoso" target="_blank" class="name-link">Daniela Correia Fragoso</a> and it's on <a href="https://github.com/Danicfragoso/portuguese-poem-generator" target="_blank" class = "footer-link"> GitHub</a> and hosted on <a href="https://portuguese-poem-generator.netlify.app" target="_blank" class="hosted"> Netlify </a> </footer>
-    <script src="src/index.js"></script:scr>
+    <script src="src/index.js"></script>
 </body>
 </html>
